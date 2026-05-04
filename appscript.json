@@ -1,0 +1,32 @@
+{
+  "timeZone": "Australia/Sydney",
+  "runtimeVersion": "V8",
+  "exceptionLogging": "STACKDRIVER",
+  "oauthScopes": [
+    "https://mail.google.com/",
+    "https://www.googleapis.com/auth/drive",
+    "https://www.googleapis.com/auth/script.scriptapp",
+    "https://www.googleapis.com/auth/gmail.addons.execute",
+    "https://www.googleapis.com/auth/gmail.addons.current.message.readonly",
+    "https://www.googleapis.com/auth/script.locale"
+  ],
+  "addOns": {
+    "common": {
+      "name": "Save Email as EML",
+      "logoUrl": "https://www.freepik.com/premium-ai-image/black-simple-tattoo-form-letter-g-from-ornament-gothic-style-white-background-ai-generative_187075955.htm",
+      "useLocaleFromApp": true,
+      "layoutProperties": {
+        "primaryColor": "#1A73E8",
+        "secondaryColor": "#FFFFFF"
+      }
+    },
+    "gmail": {
+      "contextualTriggers": [
+        {
+          "unconditional": {},
+          "onTriggerFunction": "buildGmailCard"
+        }
+      ]
+    }
+  }
+}
