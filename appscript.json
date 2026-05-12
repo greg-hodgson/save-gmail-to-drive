@@ -13,7 +13,7 @@
   "addOns": {
     "common": {
       "name": "Save Email as EML",
-      "logoUrl": "https://www.freepik.com/premium-ai-image/black-simple-tattoo-form-letter-g-from-ornament-gothic-style-white-background-ai-generative_187075955.htm",
+      "logoUrl": "https://raw.githubusercontent.com/greg-hodgson/save-gmail-to-drive/main/g-logo.svg",
       "useLocaleFromApp": true,
       "layoutProperties": {
         "primaryColor": "#1A73E8",
